@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maaz Ahmar | Portfolio</title>
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <!-- bootstrap css 5.1.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- bootstrap icons 1.9.1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- CSS STARTS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #333333;
+    }
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    h1 {
+      margin-top: 40px;
+      padding: 0px;
+      padding-bottom: 10px;
+      font-size: 70px;
+      font-weight: 500;
+      text-align: center;
+      color: #c4c4c4;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 35px;
+        color: #C4C4C4;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+      }
+
+    .me {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-top: 22px;
+      min-width: 270px;
+    }
+
+    nav .logo {
+      height: 40px;
+      width: auto;
+    }
+
+    nav a {
+      font-weight: 400;
+      font-size: 15px;
+      color: #c4c4c4; 
+      margin-right: 50px;
+    }
+
+    #contact {
+      margin-right: 0px;
+      padding-right: 0;
+    }
+
+    nav a:hover {
+      color: #FFFFFF;
+    }
+
+    .line1 {
+      margin-right: 14px;
+      margin-left: 12px;
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 0.5px solid #c4c4c4;
+    }
+
+    p {
+      color: #c4c4c4;
+      text-align: center;
+      font-weight: 200;
+      font-size: 23px;
+    }
+
+    .uxdesign {
+      font-weight: 300;
+      color: white;
+      text-decoration: none;
+    }
+
+    .uxdesign:hover {
+      color: #C4C4C4;
+    }
+
+    .nepal_world {
+      margin-bottom: -8px;
+      font-weight: 300;
+      font-size: 22px;
+      color: #C4C4C4;
+    }
+
+    .data {
+      font-size: 12px;
+      font-weight: 200;
+      margin-bottom: 0px;
+    }
+
+    .line2 {
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 0.5px solid #c4c4c4;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #projects {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .project1 {
+      margin-top: 5px;
+      margin-bottom: 80px;
+    }
+
+    .project2 {
+      margin-top: 5px;
+      margin-bottom: 80px;
+    }
+
+    .project3 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .end-footer {
+      margin-top: 40px;
+    }
+
+    .my-4 {
+      margin-bottom: 0px!important;
+    }
+    footer.border-top {
+      border-top: 0.1px solid #c4c4c4!important;
+    }
+
+    p.item-1 {
+      font-weight: 300;
+      font-size: 12px;
+      color: #C4C4C4;
+    }
+
+    div.data-container {
+      max-width: 700px;
+      height: auto;
+    }
+
+    .table>:not(caption)>*>* {
+      padding: 0px;
+    }
+
+    td,p.data.align-a {
+      text-align: left;
+    }
+
+    td,p.data.align-b {
+      text-align: right;
+    }
+
+    img.data.cloudy {
+      float: right;
+    }
+
+    .table {
+      margin-bottom: 2px;
+    }
+    
+    /* Social Links */
+    .btn-social {
+      border-radius: 100%;
+      display: inline-flex;
+      width: 35px;
+      height: 35px;
+      font-size: 14px;
+      justify-content: center;
+      align-items: center;
+      color: #C4C4C4;
+      border-color: #C4C4C4;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+    .nepal_world-mobile {
+      display: none;
+    }
+
+    div.table-responsive.socialbox {
+      max-width: fit-content;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a.btn.btn-outline-light.btn-social {
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+
+    .line4 {
+      display: none;
+    }
+
+    .line3 {
+      display: none;
+    }
+
+    .card {
+        width: 100%;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        background: url("icons/downbtn.svg") no-repeat;
+        background-position: center;
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+        border: none;
+    }
+    .card:hover {
+        background: url("images/activebtn.svg") no-repeat;
+        background-position: center;
+    }
+
+    .text-start {
+      margin-top: 20px;
+      letter-spacing: 0.5px;
+      line-height: normal;
+    }
+
+    .footer-logo {
+      max-height: 30px;
+      width: auto;
+    }
+
+    /* Responsive CSS Starts*/
+
+    /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+
+      h1 {
+        font-size: 40px;
+        font-weight: 500;
+        margin: auto;
+        padding-top: 0px;
+        padding-bottom: 6px;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 26px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 13.5px;
+        font-weight: 200;
+        margin-bottom: 5px;
+      }
+
+      .me {
+        margin-top: 14px;
+      }
+
+      #projects {
+        margin-top: 50px;
+      }
+
+      .nepal_world {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: small;
+        font-weight: 400;
+        display: none;
+      }
+      .circle {
+        position: absolute;
+        z-index: -1;
+        width: 55px;
+        height: 55px;
+        left: 44%;
+        top: 445px;
+
+        background: #D9D9D9;
+        box-shadow: 0px 4px 50px -5px #FFFFFF, inset 0px 4px 20px #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 100%;
+      }
+      .nepal_world-mobile {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: small;
+        font-weight: 300;
+      }
+
+      div.table-responsive.socialbox {
+      max-width: fit-content;
+      margin-top: 75px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+      .data {
+        font-size: x-small;
+      }
+      img.data.cloudy {
+        width: 15px;
+      }
+      .me {
+        min-width: 150px;
+      }
+      .line1, .line2 {
+        display: none;
+      }
+      
+      .flexbox {
+      display: flex;
+      flex-direction: column-reverse;
+      }
+      .nepal_world-mobile {
+        display: block;
+        position: relative;
+        z-index: -1;
+        top: 90px;
+        font-size: 20px;
+      }
+
+    .line3 {
+      display: block;
+      position: relative;
+      z-index: -1;
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0;
+      margin-bottom: 12px;
+      border: 0.5px solid #c4c4c4;
+    }
+    .line4 {
+      display: block;
+      position: relative;
+      z-index: -1;
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0;
+      border: 0.5px solid #c4c4c4;
+    }
+
+    .text-start {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    }
+
+    /* `md` applies to small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) {
+      div.col-md-6 p.item-1 {
+        font-size: 10px;
+      }
+
+    }
+
+    /* `lg` applies to medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) { 
+      .navbar>.container-fluid {
+        flex-direction: column;
+      }
+      .navbar-collapse {
+        background-color: #333333;
+        position: absolute;
+        z-index: 1;
+        top: 106px;
+        right: 0px;
+        width: 100%;
+        height: 100vh;
+        transition-duration: 0.2s;
+        transition-timing-function: linear;
+        transition-property: revert;
+      }
+      .navbar-brand {
+        margin-right: 0px;
+      }
+      .navbar-nav .nav-link {
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: x-large;
+      }
+
+      .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+        margin-top: 30px;
+      }
+      .navbar-toggler {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: none;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+      .text-start {
+        font-size: 15px;
+      }
+    }
+
+    /* `xl` applies to large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) { 
+
+    }
+
+    /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+    @media (max-width: 1399.98px) { 
+
+    }
+
+    /* Responsive CSS Ends*/
+
+  </style>
+  <!-- CSS ENDS -->
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.svg" alt="Logo"></a>
+        <img class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" src="icons/downbtn.svg" alt="Drop_Down">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">MUSIC</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+            <li class="nav-item"><a id="contact" class="nav-link" href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+    <hr class="line1">
+  </section>
+
+  <!-- Intro Section -->
+  <section class="container">
+    <div class="flexbox">
+      <div class="item1">
+        <h1>MAAZ AHMAR</h1>
+        <p>A Designer | An Aesthete | Music Enthusiast</p>
+        <p>Specialized in <a href="https://coursera.org/verify/3VNVF9DDXKLQ" class="uxdesign">UX Design</a></p>
+      </div>
+      <div class="item2">
+        <img class="me img-fluid" src="images/profile.svg" alt="Me">
+      </div>
+    </div>
+
+    <!-- Data Items -->
+    <div class="container data-container">
+      <p class="nepal_world">Nepal & World</p>
+      <div class="circle">
+      </div>
+      <p class="nepal_world-mobile">Nepal & World</p>
+      <div class="table-responsive">
+        <table class="table table-borderless align-middle table-sm">
+          <tr>
+          <td><p class="data align-a">BRT</p></td>
+          <td><p class="data align-a">15°C</p></td>
+          <td>&nbsp;&nbsp;</td>
+          <td><p class="data align-b">10:15 PM</p></td>
+          <td><img class="data cloudy" src="icons/cloudy.svg" alt="icon"></td>
+        </tr>
+        </table>
+        <hr class="line2">
+      </div>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="table-responsive socialbox">
+      <hr class="line4">
+      <table class="table table-borderless align-middle table-sm">
+        <tr>
+          <td><a class="btn btn-outline-light btn-social" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a></td>
+          <td><a class="btn btn-outline-light btn-social" href="#!"><i class="fab fa-fw fa-twitter"></i></a></td>
+          <td><a class="btn btn-outline-light btn-social" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a></td>
+          <td><a class="btn btn-outline-light btn-social" href="#!"><i class="fab fa-fw fa-dribbble"></i></a></td>
+        </tr>      
+      </table>
+    </div>
+    <a href="#projects"><div class="card"></div></a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <hr class="line3">
+
+      <!-- Project 1 -->
+      <div class="row project1">
+        <div class="col-md-6">
+          <h2>Text Here <br> about the projects.</h2>
+          <p class="text-start">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end align-items-baseline">
+          <img class="img-fluid" src="images/thumbnail.svg" alt="">
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="row project2">
+        <div class="col-md-6">
+          <h2>Text Here <br> about the projects.</h2>
+          <p class="text-start">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end align-items-baseline">
+          <img class="img-fluid" src="images/thumbnail.svg" alt="">
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="row project3">
+        <div class="col-md-6">
+          <h2>Text Here <br> about the projects.</h2>
+          <p class="text-start">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end align-items-baseline">
+          <img class="img-fluid" src="images/thumbnail.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Project Ends -->
+  
+  <!-- Footer Section -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="nav col-md-4 justify-content-start item-1">Designed and Coded @ Maaz Ahmar</p>
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+        <img class="footer-logo" src="images/logo.svg" alt="logo">
+      </a>
+      <p class="nav col-md-4 justify-content-end item-1">&copy; 2021 | Designer | maazahmar@gmail.com</p>
+    </footer>
+  </div>
+
+<!-- JavaScript Code Starts -->
+  <script>
+   
+
+  </script>
+  <!-- bootstrap js 5.1.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- fontawesome js icons 6.1.0 -->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+<!-- JavaScript Code Ends -->
+
+</body>
+</html>

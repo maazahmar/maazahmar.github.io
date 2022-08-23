@@ -47,11 +47,14 @@
     }
 
     h2 {
-        font-weight: 700;
-        font-size: 35px;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.5;
+        letter-spacing: normal;
+        word-spacing: 3px;
         color: #C4C4C4;
         margin-bottom: 0px;
-        text-transform: uppercase;
+        text-transform: none;
       }
 
     .me {
@@ -260,8 +263,12 @@
 
     .text-start {
       margin-top: 20px;
-      letter-spacing: 0.5px;
-      line-height: normal;
+      letter-spacing: normal;
+      line-height: 1.4;
+      font-size: 20px;
+      word-spacing: 3px;
+      max-width: 500px;
+      text-align: justify!important;
     }
 
     .footer-logo {
@@ -288,7 +295,7 @@
         font-weight: 400;
         margin-bottom: 15px;
         line-height: 26px;
-        text-transform: uppercase;
+        text-transform: none;
       }
 
       p {
@@ -337,7 +344,7 @@
       margin-top: 75px;
       margin-left: auto;
       margin-right: auto;
-    }
+      }
 
       .data {
         font-size: x-small;
@@ -364,32 +371,31 @@
         font-size: 20px;
       }
 
-    .line3 {
-      display: block;
-      position: relative;
-      z-index: -1;
-      max-width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 0;
-      margin-bottom: 35px;
-      border: 0.5px solid #c4c4c4;
-    }
-    .line4 {
-      display: block;
-      position: relative;
-      z-index: -1;
-      max-width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 0;
-      border: 0.5px solid #c4c4c4;
-    }
+      .line3 {
+        display: block;
+        position: relative;
+        z-index: -1;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 35px;
+        border: 0.5px solid #c4c4c4;
+      }
+      .line4 {
+        display: block;
+        position: relative;
+        z-index: -1;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        border: 0.5px solid #c4c4c4;
+      }
 
-    .text-start {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
+      .text-start {
+        margin-top: 10px;
+      }
 
     }
 
@@ -443,6 +449,8 @@
       }
       .text-start {
         font-size: 15px;
+        margin-bottom: 30px;
+        text-align: justify!important;
       }
     }
 
@@ -468,14 +476,14 @@
   <section class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.svg" alt="Logo"></a>
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.svg" alt="Logo"></a>
         <img class="navbar-toggler fa-shake" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" src="icons/downbtn.svg" alt="Drop_Down">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">MUSIC</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-            <li class="nav-item"><a id="contact" class="nav-link" href="#">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">PORTFOLIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="music.html">MUSIC</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a id="contact" class="nav-link" href="contact.html">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -540,7 +548,7 @@
       <!-- Project 1 -->
       <div class="row project1">
         <div class="col-md-6">
-          <h2>UX Designer’s <br> Portfolio website.</h2>
+          <h2>UX Designer's <br> Portfolio website.</h2>
           <p class="text-start">
             A clean, minimalistic and responsive
             UX Design Portfolio.           
@@ -549,7 +557,7 @@
             also did front-end coding myself.</p>
         </div>
         <div class="col-md-6 d-flex justify-content-end align-items-baseline">
-          <img class="img-fluid" src="https://raw.githubusercontent.com/maazahmar/maazahmar.github.io/87144d6dc5ec6201a1037fe746a43cd0152b6305/images/Thumbnail2.svg" alt="">
+          <img class="img-fluid" src="images/thumbnail1.svg" alt="">
         </div>
       </div>
 
